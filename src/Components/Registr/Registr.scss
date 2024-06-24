@@ -1,0 +1,66 @@
+.registr-wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 8;
+    .background-registr {
+      img {
+        position: relative;
+        left: -35vw;
+        width: 150%;
+        height: 150%;
+        }
+      .valid-pass{
+        position: fixed;
+        color: white;
+        bottom: 103px;
+        text-align: center;
+font-size: 14px;
+      }
+      .form {
+        width: 350px;
+        height: 550px;
+        background-color: #000000e6;
+        border-radius: 35px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-top: 30px;
+        h2 {
+          color: white;
+          text-align: center;
+          width: 80%;
+        }
+        input {
+          width: 80%;
+          height: 50px;
+          border-radius: 20px;
+          border: 2px solid grey;
+          padding-left: 20px;
+          outline: none;
+          color: white;
+          background-color: black;
+        }
+        button {
+          width: 80%;
+          background-color: white;
+          color: black;
+          height: 50px;
+          border-radius: 20px;
+          font-size: 18px;
+          border: 2px solid grey;
+          font-weight: 700;
+          margin-top: 40px;
+          cursor: pointer;
+        }
+        
+      }
+    }
+}

@@ -1,0 +1,25 @@
+ .wrapper-home {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 6;
+    opacity: 0.1;
+      img {
+        width: 120%;
+        height: 120%;
+        rotate: 10deg;
+      }
+    }
+.wrapper_poster {
+background-color: black;
+display: flex;
+justify-content: center;
+height: 100vh;
+img{
+  position: absolute;
+  height: 100vh;
+  z-index: 7;
+}
+}
